@@ -1,0 +1,42 @@
+<!-- Blog -->
+<section>
+  <article>
+    <h2>Título de la Entrada</h2>
+    <p class="meta">
+      Publicado por <a href="#">Autor</a> el 29 de junio de 2024
+    </p>
+    <div class="content">
+      <p>
+        Contenido principal de la entrada del blog. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam imperdiet, risus et vehicula commodo,
+        augue nunc convallis libero, in eleifend metus sapien in purus. Nulla
+        facilisi. Cras sodales, massa a bibendum placerat, sapien purus
+        fermentum eros, nec malesuada sapien libero vel dui. Mauris ut odio
+        nulla. In vel turpis nulla.
+      </p>
+      <p>
+        Más contenido de la entrada del blog. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Etiam imperdiet, risus et vehicula commodo,
+        augue nunc convallis libero, in eleifend metus sapien in purus. Nulla
+        facilisi. Cras sodales, massa a bibendum placerat, sapien purus
+        fermentum eros, nec malesuada sapien libero vel dui. Mauris ut odio
+        nulla. In vel turpis nulla.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed possimus
+        voluptatibus eveniet, nesciunt accusantium saepe. Cupiditate, quo autem.
+        Libero ratione, amet dignissimos molestiae, hic, praesentium fuga in
+        totam voluptates at fugit rerum. Voluptate dolor illum, dignissimos
+        accusamus minima hic soluta!
+      </p>
+    </div>
+  </article>
+
+  @defer(on viewport) {
+    <app-comments />
+  } @placeholder {
+    <p>.</p>
+  } @loading {
+    <p>Cargando...</p>
+  }
+</section>
